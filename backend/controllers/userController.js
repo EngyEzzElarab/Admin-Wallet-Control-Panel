@@ -1,6 +1,6 @@
 const User = require('../models/User'); 
 const Transaction = require('../models/Transaction');
-
+//
 const getUserById = async (req, res) => {
   const userId = req.params.id;
 
